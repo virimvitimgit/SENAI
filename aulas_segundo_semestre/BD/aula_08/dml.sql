@@ -1,4 +1,4 @@
-use gestao_pedidos
+use gestao_pedidos;
 
 insert into cliente(nome, complemento, numero, cep) values
 ("Timóteo Matos","Ap44 BL01","27","13905-714"),
@@ -10,7 +10,7 @@ insert into cliente(nome, complemento, numero, cep) values
 ("Valter Martins",null,"1245","13904-071"),
 ("Antônio Martins",null,"2345","13905-520"),
 ("Zélia Júnior",null,"13","13901-329"),
-("Evandro Martins de Oliveira","BL12 AP44","17","13905-682")
+("Evandro Martins de Oliveira","BL12 AP44","17","13905-682");
 
 insert into telefone(id_cliente,numero,tipo) values
 (1,"19 90952-7709","Celular"),
@@ -27,21 +27,29 @@ insert into telefone(id_cliente,numero,tipo) values
 (9,"19 03094-9372","Celular"),
 (9,"19 87797-0571","Celular"),
 (9,"19 06019-6601","Comercial"),
-(10,"19 53922-8414","Celular")
+(10,"19 53922-8414","Celular");
 
 insert into produto(nome) values
 ("Impressora laser"),
 ("Impressora deskjet"),
 ("Impressora matricial"),
-("Impressora mobile")
+("Impressora mobile");
 
-insert into pedido(id,id_produto,id_cliente,quantidade,valor_unitario) values
+insert into pedido(id,id_produto,id_cliente,quantidade,valor_unitario) values;
 (1005,1,1,5,1500.00),
 (1006,2,1,3,350.00),
 (1007,3,2,1,190.00),
-(1008,4,3,6,980.00)
+(1008,4,3,6,980.00);
 
-select * from cliente
-select * from telefone
-select * from produto
-select * from pedido
+select * from cliente;
+select * from telefone;
+select * from produto;
+select * from pedido;
+
+select * from pedido inner join produto;
+
+select * from cliente left join pedido on cliente.id = pedido.id_cliente;
+
+select * from pedido order by id desc limit 2;
+
+select * from cliente where id like '1';

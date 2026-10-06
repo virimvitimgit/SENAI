@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, black, black, firebrick);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+header{
+    background: linear-gradient(90deg, black, black, firebrick);
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+}
+header h1{
+    margin-bottom: 8px;
+}
+nav ul{
+    list-style: nome;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin:0 10px
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover{
+    background: linear-gradient(100deg,black, firebrick);
+    color:gold;
+    cursor:pointer;
+}
+section{
+    padding:24px;
+    margin:16px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+.conteiner{
+    max-width: 800px;
+    margin: 0 auto;
+}
+h2{
+    margin-bottom: 16px;
+}
+.sobre-mim{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.foto-projeto01{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0px solid #333;
+}
+.foto-projeto02{
+    width: 175px;
+    height: 225px;
+    object-fit: cover;
+    border: 2px solid #333;
+}
+.foto-projeto03{
+    width: 175px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #333;
+}
+.cards{
+    display: flex;
+    gap: 16px;
+}
+.card{
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.formacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    background: #d4e915;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 14px;
+    transition: transform 0.3s ease, box-shadow 0.4s ease;
+}
+.experiencias{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    background: #934848;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 14px;
+    transition: transform 0.3s ease, box-shadow 0.4s ease;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg, black, black, firebrick);
+    color:gold;
+}
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.hobby{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 14px;
+    transition: transform 0.3s ease, box-shadow 0.4s ease;
+}
+.hobby:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+    background: linear-gradient(100deg,white, white, black);
+    color:crimson;
+}
+.hobby i{
+    font-size: 32px;
+    color: #3f4e58;
+}
+form{
+    display: grid;
+    gap: 16px;
+}
+input, textarea{
+    width: 100%;
+    background: gray;
+    opacity: 30%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button{
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease-in;
+}
+button:hover{
+    background: #b8b8b8;
+    color: #333;
+    transform: rotate(360deg);
+}
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p{
+    text-align: justify
+}
