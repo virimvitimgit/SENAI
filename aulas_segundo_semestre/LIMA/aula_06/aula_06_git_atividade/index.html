@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="card">
+
+            <h1>Cadastro Alunos</h1>
+
+            <p>Preencha os dados abaixo</p>
+
+            <input
+                type="text"
+                id="nomeA"
+                placeholder="Nome"
+            >
+
+            <input
+                type="email"
+                id="emailA"
+                placeholder="E-mail"
+            >
+
+            <input
+                type="tel"
+                id="telefoneA"
+                placeholder="Telefone"
+            >
+
+            <input
+                type="text"
+                id="matricula"
+                placeholder="Matrícula"
+            >
+
+            <button id="salvarA">
+                Salvar
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h1>Cadastro Professores</h1>
+
+            <p>Preencha os dados abaixo</p>
+
+            <input
+                type="text"
+                id="nomeB"
+                placeholder="Nome"
+            >
+
+            <input
+                type="email"
+                id="emailB"
+                placeholder="E-mail"
+            >
+
+            <input
+                type="tel"
+                id="telefoneB"
+                placeholder="Telefone"
+            >
+
+            <input
+                type="text"
+                id="materia"
+                placeholder="Matéria"
+            >
+
+            <button id="salvarB">
+                Salvar
+            </button>
+
+        </div>
+
+        <div class="card tabela-container">
+
+            <h2>Cadastros Alunos</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Telefone</th>
+                        <th>Matrícula</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="tabelaA">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+            <div class="card tabela-container">
+
+            <h2>Cadastros Professores</h2>
+
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Telefone</th>
+                        <th>Matéria</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="tabelaB">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

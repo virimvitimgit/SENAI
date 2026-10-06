@@ -1,0 +1,19 @@
+{
+  "name": "atividade_desafio_01",
+  "version": "1.0.0",
+  "description": "Atividade full stack de back end, SESI/SENAI",
+  "license": "ISC",
+  "author": "virimvitimgit",
+  "type": "commonjs",
+  "main": "servidor/server.js",
+  "Key words": [
+    "Item",
+    "Patrimonio"
+  ],
+  "scripts": {
+    "dev": "node servidor/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

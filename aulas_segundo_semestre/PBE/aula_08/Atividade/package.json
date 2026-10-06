@@ -1,0 +1,17 @@
+{
+  "name": "aula_08_pbe",
+  "version": "1.0.0",
+  "description": "Pedidos MVC",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "Vitor",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "John Jones",
+        "endereço": "Alguma Rua, 123",
+        "cidade": "New York"
+    },
+    {
+        "id": 2,
+        "name": "Mary Mares",
+        "endereço": "Rua Semântica, 321",
+        "cidade": "São Paulo"
+    },
+    {
+        "id": 3,
+        "name": "Adalberto Marílio",
+        "endereço": "Rua Merles, 456",
+        "cidade": "Singapura"
+    }
+]

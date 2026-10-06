@@ -1,0 +1,19 @@
+{
+  "name": "atividade_01",
+  "version": "1.0.0",
+  "description": "Atividade de back end, SESI/SENAI",
+  "main": "servidor/server.js",
+  "scripts": {
+    "dev": "node servidor/server.js"
+  },
+  "keywords": [
+    "Consultas",
+    "Nutricionista"
+  ],
+  "author": "VirimVitim",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

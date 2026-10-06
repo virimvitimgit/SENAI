@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "paciente": "Gengiscana Doadorio",
+        "peso": 95.5,
+        "altura": 1.82,
+        "data": "2025-05-23"
+    },
+    {
+        "id": 2,
+        "paciente": "Buno Joavincos",
+        "peso": 85.5,
+        "altura": 1.80,
+        "data": "2024-09-30"
+    },
+    {
+        "id": 3,
+        "paciente": "Trietro Nuves",
+        "peso": 65.2,
+        "altura": 1.75,
+        "data": "2026-06-07"
+    }
+]

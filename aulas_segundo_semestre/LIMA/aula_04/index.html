@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Formulário para Cadastro</h1></center>
+    <p style="font-family:Times New Roman; font-size: 30px; color: blue;">Realize um cadastro e concorra a prêmios!</p>
+    <form>
+        <label>Nome Completo:</label>
+        <input type = "text" placeholder = "insira seu nome" required />
+        <br><br>
+        <label>Data de Nascimento</label>
+        <input type = "date" placeholder="selecione sua data de nascimento"/>
+        <br><br>
+        <label>CPF</label>
+        <input type=""number" placeholder = "insira seu CPF" required />
+        <br><br>
+        <label>Você nos indicaria?</label>
+        <input type ="number" min ="1" max ="5"/>
+        <br><br>
+        <label>Email</label>
+        <input type = "email" placeholder = "informe seu email" required/>
+        <br><br>
+        <label>Cor Favorita</label>
+        <input type = "color" />
+        <br><br>
+        <label>Em qual volume você ouve música (0 a 100)</label>
+        <input id = "volume" type = "range" min="0" max="100" value = "50"
+        oninput = "atualizarVolume(this.value)"/>
+        <span id = "valor-volume">50</span>
+        <br><br>
+        <fieldset>
+            <legend>Gênero</legend>
+            <input type = "radio" name = "genero" style="accent-color: black;"/>
+            <label>Masculino</label>
+            <input type ="radio" name = "genero" style="accent-color: red;"/>
+            <label>Feminino</label>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Monte seu Lanche! 🦙</legend>
+            <input type = "checkbox" id="salada" style="accent-color: green;"/>
+            <label>Salada</label>
+            <input type="checkbox" id="hamburguer" style="accent-color: orange;"/>
+            <label>Hamburguer</label>
+            <input type="checkbox" id="maionese" style="accent-color: yellow;"/>
+            <label>Maionese Caseirada Casa ✨</label>
+            <input type="checkbox" id="bacon" style="accent-color:olive;"/>
+            <label>Bacon</label>
+        </fieldset>
+        <br><br>
+        <label>Informações Adicionais</label>
+        <textarea id = "info"></textarea>
+        <br><br>
+        <label>Senha</label>
+        <input type = "password"/>
+        <br><br>
+        <label>Informe a Cidade</label>
+        <select>
+            <option>Jaguariúna</option>
+            <option>Campinas</option>
+            <option>São Paulo</option>
+            <option>Pedreira</option>
+        </select>
+        <br><br>
+        <input type = "reset" value ="Limpar Form"/>
+        <input type = "submit" />
+    </form>
+    <script>
+        function atualizarVolume(valor) {
+            document.getElementById('valor-volume').textContent = valor;
+        }
+    </script>
+</body>
+</html>

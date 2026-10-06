@@ -1,0 +1,38 @@
+Atividades ARI Aula 3
+
+1 IP -
+Máscara: 255.255.255.0
+Gateway: 192.168.0.1
+Broadcast: 192.168.0.255
+Escopo: 192.168.0.0
+
+2 IP -
+Máscara: 255.
+Gateway:
+Broadcast:
+Escopo:
+
+3 IP -
+Máscara: 255.255.255.0
+Gateway: 10.0.100.1
+Broadcast: 10.0.100.255
+Escopo: 10.0.100.0 - 10.0.100.255
+
+4 IP -
+Máscara: 255.255.255.0
+Gateway: 192.168.24.4
+Broadcast: 152.168.24.255
+Escopo: 192.168.24.0 - 192.168.24.255
+
+5 IP -
+Máscara: 255.255.0.0
+Gateway: 122.16.0.1
+Broadcast: 192.16.255.255
+Escopo: 172.16.0.0 - 172.16.255.255
+
+6 IP -
+Máscara: 255.255.0.0
+Gateway: 10.0.0.1
+Broadcast: 10.0.255.255
+Escopo: 10.0.0.0 - 10.0.255.255
+

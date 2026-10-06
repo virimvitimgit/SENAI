@@ -1,0 +1,19 @@
+{
+  "name": "pedidos_medieval",
+  "version": "1.0.0",
+  "description": "Projeto de Exemplo para aprendizado",
+  "main": "servidor/server.js",
+  "scripts": {
+    "dev": "node servidor/server.js"
+  },
+  "keywords": [
+    "Medieval",
+    "Pedidos"
+  ],
+  "author": "virimvitim",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

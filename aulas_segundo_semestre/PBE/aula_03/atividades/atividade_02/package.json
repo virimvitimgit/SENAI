@@ -1,0 +1,20 @@
+{
+  "name": "atividade_02",
+  "version": "1.0.0",
+  "description": "Atividade de back end, SESI/SENAI",
+  "main": "servidor/server.js",
+  "scripts": {
+    "dev": "node servidor/server.js"
+  },
+  "keywords": [
+    "Futebol",
+    "Jogos"
+  ],
+  "author": "VirimVitim",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "cliente_id": 1,
+        "produto": "Joguinhos",
+        "preco": 300,
+        "quantidade": 3
+    },
+    {
+        "id": 2,
+        "cliente_id": 1,
+        "produto": "Melancia Escura",
+        "preco": 3000,
+        "quantidade": 1
+    },
+    {
+        "id": 3,
+        "cliente_id": 2,
+        "produto": "Cabeça de Espantalho",
+        "preco": 3,
+        "quantidade": 5
+    },
+    {
+        "id": 4,
+        "cliente_id": 3,
+        "produto": "Faca Mal-Afiada",
+        "preco": 33,
+        "quantidade": 12
+    }
+]

@@ -1,0 +1,61 @@
+Atividades ARI Aula 4
+
+1 - 192.168.0.0/24
+Máscara: 255.255.255.0
+Gateway: 192.168.0.1
+Broadcast: 192.168.0.255
+Escopo: 192.168.0.1 - 192.168.0.255
+
+2 - 192.168.3.0/25
+Máscara: 255.255.255.128
+Gateway: 192.168.0.1
+Broadcast: 192.168.0.255
+Escopo: 192.168.0.1 - 192.168.0.255
+
+3 - 10.0.0.128/25
+Máscara: 255.0.0.128
+Gateway: 10.0.0.1
+Broadcast: 
+Escopo: 10.0.0.1
+
+4 - 172.16.0.192/26
+Máscara: 255.255.255.192
+Gateway: 172.16.0.1
+Broadcast: 172.16.0.255
+Escopo: 172.16.0.1 - 172.16.0.255
+
+5 - 172.10.0.0/16
+Máscara: 255.255.
+Gateway:
+Broadcast:
+Escopo:
+
+6 - 172.16.0.0/17
+Máscara: 255.255.
+Gateway:
+Broadcast:
+Escopo:
+
+7 - 10.0.0.0/8
+Máscara: 255.255.
+Gateway:
+Broadcast:
+Escopo:
+
+8 - 10.0.128.0/17
+Máscara: 255.255.
+Gateway:
+Broadcast:
+Escopo:
+
+9 - 10.128.0.0/9
+Máscara: 255.255.
+Gateway:
+Broadcast:
+Escopo:
+
+10 - 10.0.0.0/10
+Máscara: 255.255.
+Gateway:
+Broadcast:
+Escopo:

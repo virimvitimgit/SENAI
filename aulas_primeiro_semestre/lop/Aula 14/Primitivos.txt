@@ -1,0 +1,4 @@
+char " %c"
+int "%d"
+float "%f"
+double "%lf"

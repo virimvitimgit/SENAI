@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "clube": "Ordenadores do Rio Grande do Sul",
+        "vitorias": 60,
+        "empates": 50,
+        "derrotas": 23
+    },
+    {
+        "id": 2,
+        "clube": "Ventureiros de Cavernas do Norte",
+        "vitorias": 3,
+        "empates": 33,
+        "derrotas": 97
+    },
+    {
+        "id": 3,
+        "clube": "Lordes das Bolas",
+        "vitorias": 65,
+        "empates": 65,
+        "derrotas": 3
+    }
+]
