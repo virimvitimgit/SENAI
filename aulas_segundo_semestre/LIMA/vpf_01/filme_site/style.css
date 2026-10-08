@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, sans-serif;
-    background: linear-gradient(90deg, black, black, firebrick);
+    background: linear-gradient(90deg,black, black, firebrick);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -35,7 +35,7 @@ nav ul li a{
 }
 nav ul li a:hover{
     background: linear-gradient(100deg,black, firebrick);
-    color:gold;
+    color:rgba(218, 165, 32, 1.0);
     cursor:pointer;
 }
 section{
@@ -52,11 +52,6 @@ section{
 h2{
     margin-bottom: 16px;
 }
-.sobre-mim{
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
 .foto-projeto01{
     width: 240px;
     height: 240px;
@@ -71,8 +66,8 @@ h2{
     border: 2px solid #333;
 }
 .foto-projeto03{
-    width: 175px;
-    height: 150px;
+    width: 300px;
+    height: 500px;
     object-fit: cover;
     border: 2px solid #333;
 }
@@ -88,19 +83,19 @@ h2{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.formacoes{
+.trailer{
     display: flex;
     flex-direction: column;
     gap: 4px;
     align-items: center;
-    background: #d4e915;
+    background: linear-gradient(100deg,black, black, rgba(16, 44, 87, 1.0));
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     gap: 14px;
     transition: transform 0.3s ease, box-shadow 0.4s ease;
 }
-.experiencias{
+.elenco{
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -116,34 +111,7 @@ h2{
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     background: linear-gradient(90deg, black, black, firebrick);
-    color:gold;
-}
-.hobbies{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-.hobby{
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    align-items: center;
-    background: #f4f4f4;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    gap: 14px;
-    transition: transform 0.3s ease, box-shadow 0.4s ease;
-}
-.hobby:hover{
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0,0,0,0.6);
-    background: linear-gradient(100deg,white, white, black);
-    color:crimson;
-}
-.hobby i{
-    font-size: 32px;
-    color: #3f4e58;
+    color:rgba(218, 165, 32, 1.0);
 }
 form{
     display: grid;
@@ -156,15 +124,16 @@ input, textarea{
     padding: 8px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    color: gold;
+    text-decoration: rgba(218, 165, 32, 1.0);
 }
 button{
-    background: #333;
-    color: #fff;
+    background: linear-gradient(100deg,black, black, rgba(16, 44, 87, 1.0));
+    color: rgba(218, 165, 32, 1.0);
     padding: 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background 0.3s ease, color 0.3s ease, transform 0.5s ease-in;
 }
 button:hover{
     background: #b8b8b8;
@@ -183,4 +152,10 @@ footer{
 
 p{
     text-align: justify
+}
+
+.textarea{
+    text-decoration-color: rgba(218, 165, 32, 1.0);
+    border-radius: 80%;
+    color: rgba(218, 165, 32, 1.0);
 }
